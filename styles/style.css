@@ -27,15 +27,9 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-bottom: calc(var(--footer-height));
-}
-
-header {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    height: var(--header-height);
-    box-shadow: var(--shadow);
+    font-size: .8rem;
 }
 
 footer {
@@ -63,8 +57,28 @@ header img {
     height: var(--header-height);
 }
 
+img {
+    height: 200px;
+}
+
 p {
-    margin: var(--gutter);
+   margin: 4px;
+}
+
+#instruments-section {
+    display: grid;
+    grid-template-rows: .1fr 1fr;
+}
+
+#instruments-section h3 {
+    grid-column: 2;
+}
+
+.instrument-item {
+    display: grid;
+    grid-area: 2;
+    text-align: center;
+    padding: 20px;
 }
   
 footer {
