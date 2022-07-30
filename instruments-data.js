@@ -1,4 +1,4 @@
-const instruments = [
+export const instruments = [
     {
         name: 'Hammond B3 Organ',
         photo: './assets/b3.jpeg',

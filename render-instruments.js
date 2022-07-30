@@ -1,3 +1,5 @@
+import { instruments } from './instruments-data.js';
+
 function renderInstrument(instrument) {
     //         <div class="instrument-item">
     //             <p>Hammond B3 Organ</p>
