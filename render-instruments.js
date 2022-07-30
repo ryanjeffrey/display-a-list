@@ -29,4 +29,8 @@ function renderInstrument(instrument) {
         componentEl.textContent = component;
         componentsEl.append(componentEl);
     }
+
+    instrumentEl.append(nameEl, photoEl, familyEl, componentsEl);
+
+    return instrumentEl;
 }
