@@ -1,4 +1,8 @@
 // import functions and grab DOM elements
+import { instruments } from './instruments-data.js';
+import { renderInstrument } from './render-instruments.js';
+
+console.log(instruments, renderInstrument);
 
 // initialize global state
 
