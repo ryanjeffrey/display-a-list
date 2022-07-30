@@ -3,4 +3,8 @@ import { instruments } from './instruments-data.js';
 import { renderInstrument } from './render-instruments.js';
 
 const instrumentsSection = document.getElementById('instruments-section');
-console.log(instrumentsSection);
+
+for (let instrument of instruments) {
+    const instrumentEl = renderInstrument(instrument);
+    instrumentsSection.append(instrumentEl);
+}
