@@ -87,7 +87,7 @@ h3 {
     border: 1px grey solid;
 }
 
-.components-title {
+.components-title, .star-player-title {
     margin-top: 30px;
     border-top: 1px grey solid;
 }

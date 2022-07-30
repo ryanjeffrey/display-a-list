@@ -38,6 +38,7 @@ export function renderChicagoSport(sport) {
 
     chicagoSportEl.append(teamEl, logoEl, stadiumEl, yearEstablishedEl, starPlayerTitleEl, starPlayerEl);
     chicagoSportEl.classList.add('sport-item');
+    starPlayerTitleEl.classList.add('star-player-title');
 
     return chicagoSportEl;
 }
