@@ -32,6 +32,10 @@ main {
     font-size: .8rem;
 }
 
+section {
+    margin-bottom: 40px;
+}
+
 footer {
     display: flex;
     justify-content: flex-end;
