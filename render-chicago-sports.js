@@ -1,12 +1,14 @@
 export function renderChicagoSport(sport) {
     const chicagoSportEl = document.createElement('div');
     const teamEl = document.createElement('h4');
+    const logoEl = document.createElement('img');
     const stadiumEl = document.createElement('p');
     const yearEstablishedEl = document.createElement('p');
     const starPlayerTitleEl = document.createElement('p');
     const starPlayerEl = document.createElement('ul');
 
     teamEl.textContent = `Chicago ${sport.team}`;
+    logoEl.src = sport.logo;
     stadiumEl.textContent = `Stadium: ${sport.stadium}`;
     yearEstablishedEl.textContent = `EST. ${sport.yearEstablished}`;
     starPlayerTitleEl.textContent = `Star Player:`;
@@ -34,7 +36,7 @@ export function renderChicagoSport(sport) {
     };
     nestedObject(sport.starPlayer);
 
-    chicagoSportEl.append(teamEl, stadiumEl, yearEstablishedEl, starPlayerTitleEl, starPlayerEl);
+    chicagoSportEl.append(teamEl, logoEl, stadiumEl, yearEstablishedEl, starPlayerTitleEl, starPlayerEl);
     chicagoSportEl.classList.add('sport-item');
 
     return chicagoSportEl;

@@ -1,6 +1,7 @@
 export const chicagoSports = [
     {
         team: 'Bears',
+        logo: './assets/bears.png',
         stadium: 'Soldier Field',
         yearEstablished: '1920',
         starPlayer: {
@@ -11,6 +12,7 @@ export const chicagoSports = [
     },
     {
         team: 'Bulls',
+        logo: './assets/bulls.png',
         stadium: 'United Center',
         yearEstablished: '1966',
         starPlayer: {
@@ -21,6 +23,7 @@ export const chicagoSports = [
     },
     {
         team: 'White Sox',
+        logo: './assets/sox.png',
         stadium: 'Guaranteed Rate Field',
         yearEstablished: '1900',
         starPlayer: {
