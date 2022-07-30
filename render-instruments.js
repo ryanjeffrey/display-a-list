@@ -13,4 +13,10 @@ function renderInstrument(instrument) {
     //                  <li>amplifier</li> 
     //             </ul>
     //         </div>
+
+    const instrumentEl = document.createElement('div');
+    const nameEl = document.createElement('p');
+    const photoEl = document.createElement('img');
+    const familyEl = document.createElement('p');
+    const componentsEl = document.createElement('ul');
 }
