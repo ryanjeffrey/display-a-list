@@ -32,6 +32,7 @@ export function renderInstrument(instrument) {
 
     instrumentEl.append(nameEl, photoEl, familyEl, componentsTitleEl, componentsEl);
     instrumentEl.classList.add('instrument-item');
+    componentsTitleEl.classList.add('components-title');
 
     return instrumentEl;
 }
