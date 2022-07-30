@@ -23,4 +23,10 @@ function renderInstrument(instrument) {
     nameEl.textContent = instrument.name;
     photoEl.src = instrument.photo;
     familyEl.textContent = `Family: ${instrument.family}`;
+
+    for (let component of instrument.components) {
+        const componentEl = document.createElement('li');
+        componentEl.textContent = component;
+        componentsEl.append(componentEl);
+    }
 }
