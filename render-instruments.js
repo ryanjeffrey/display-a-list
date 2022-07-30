@@ -29,6 +29,7 @@ export function renderInstrument(instrument) {
     }
 
     instrumentEl.append(nameEl, photoEl, familyEl, componentsEl);
+    instrumentEl.classList.add('instrument-item');
 
     return instrumentEl;
 }
