@@ -19,4 +19,8 @@ function renderInstrument(instrument) {
     const photoEl = document.createElement('img');
     const familyEl = document.createElement('p');
     const componentsEl = document.createElement('ul');
+
+    nameEl.textContent = instrument.name;
+    photoEl.src = instrument.photo;
+    familyEl.textContent = `Family: ${instrument.family}`;
 }
