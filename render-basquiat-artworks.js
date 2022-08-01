@@ -1,6 +1,6 @@
 export function renderBasquiatArtwork(artwork) {
     const artworkEl = document.createElement('div');
-    const titleEl = document.createElement('p');
+    const titleEl = document.createElement('h4');
     const photoEl = document.createElement('img');
     const yearEl = document.createElement('p');
     const mediumEl = document.createElement('p');

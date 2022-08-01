@@ -1,6 +1,6 @@
 export function renderMeshellAlbum(album) {
     const albumEl = document.createElement('div');
-    const titleEl = document.createElement('p');
+    const titleEl = document.createElement('h4');
     const photoEl = document.createElement('img');
     const yearEl = document.createElement('p');
     const songListTitleEl = document.createElement('p');
