@@ -73,6 +73,7 @@ p {
 #instruments-section, #sports-section, #basquiat-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    border: 0.5px grey solid;
 }
 
 h3 {
@@ -90,6 +91,10 @@ h3 {
 .components-title, .star-player-title {
     margin-top: 30px;
     border-top: 1px grey solid;
+}
+
+.artwork-photo {
+    margin: 0 auto;
 }
   
 footer {
