@@ -70,7 +70,7 @@ p {
    margin: 4px;
 }
 
-#instruments-section, #sports-section {
+#instruments-section, #sports-section, #basquiat-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -79,7 +79,7 @@ h3 {
     grid-column: 2;
 }
 
-.instrument-item, .sport-item {
+.instrument-item, .sport-item, .basquiat-item {
     display: grid;
     grid-area: 2;
     text-align: center;
