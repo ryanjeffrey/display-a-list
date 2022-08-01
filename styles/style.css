@@ -70,7 +70,7 @@ p {
    margin: 4px;
 }
 
-#instruments-section, #sports-section, #basquiat-section {
+#instruments-section, #sports-section, #basquiat-section, #meshell-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border: 0.5px grey solid;
@@ -80,12 +80,18 @@ h3 {
     grid-column: 2;
 }
 
-.instrument-item, .sport-item, .basquiat-item {
-    display: grid;
+.instrument-item, .sport-item, .basquiat-item, .meshell-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     grid-area: 2;
     text-align: center;
     padding: 20px;
     border: 1px grey solid;
+}
+
+.meshell-item li {
+    text-align: left;
 }
 
 .components-title, .star-player-title {
@@ -93,7 +99,7 @@ h3 {
     border-top: 1px grey solid;
 }
 
-.artwork-photo {
+.artwork-photo, .album-photo {
     margin: 0 auto;
 }
   
