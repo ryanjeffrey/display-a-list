@@ -8,7 +8,7 @@ export const instruments = [
     {
         name: 'Fender Jazzmaster',
         photo: './assets/jazzmaster.jpeg',
-        family: 'guitar',
+        family: 'string',
         components: ['body', 'neck', 'bridge', 'frets', 'strings', 'pickups'],
     },
     {
