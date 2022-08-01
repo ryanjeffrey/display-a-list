@@ -1,6 +1,6 @@
 export function renderInstrument(instrument) {
     const instrumentEl = document.createElement('div');
-    const nameEl = document.createElement('p');
+    const nameEl = document.createElement('h4');
     const photoEl = document.createElement('img');
     const familyEl = document.createElement('p');
     const componentsTitleEl = document.createElement('p');

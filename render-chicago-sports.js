@@ -21,6 +21,8 @@ export function renderChicagoSport(sport) {
         return typeof val === 'object';
     };
 
+    // Not sure exactly how this works yet
+    // TODO: Refactor with Object.keys()
     const nestedObject = (obj) => {
         for (const key in obj) {
             if (isObject(obj[key])) {

@@ -18,7 +18,7 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     background-color: var(--color2);
 }
 
@@ -70,21 +70,36 @@ p {
    margin: 4px;
 }
 
-#instruments-section, #sports-section {
+#basquiat-section, #meshell-section, #instruments-section, #sports-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    border: 0.5px grey solid;
+}
+
+#basquiat-section {
+    margin-top: 40px;
 }
 
 h3 {
     grid-column: 2;
 }
 
-.instrument-item, .sport-item {
-    display: grid;
+.basquiat-item, .meshell-item, .instrument-item, .sport-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     grid-area: 2;
     text-align: center;
     padding: 20px;
     border: 1px grey solid;
+}
+
+.meshell-item li {
+    text-align: left;
+}
+
+.artwork-photo, .album-photo {
+    margin: 0 auto;
 }
 
 .components-title, .star-player-title {
