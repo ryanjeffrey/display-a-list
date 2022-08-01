@@ -2,9 +2,11 @@
 import { instruments } from './instruments-data.js';
 import { chicagoSports } from './chicago-sports-data.js';
 import { basquiatArtworks } from './basquiat-artworks-data.js';
+import { meshellAlbums } from './meshell-albums-data.js';
 import { renderInstrument } from './render-instruments.js';
 import { renderChicagoSport } from './render-chicago-sports.js';
 import { renderBasquiatArtwork } from './render-basquiat-artworks.js';
+import { renderMeshellAlbum } from './render-meshell-albums.js';
 
 const instrumentsSection = document.getElementById('instruments-section');
 
@@ -25,4 +27,11 @@ const basquiatArtworksSection = document.getElementById('basquiat-section');
 for (let artwork of basquiatArtworks) {
     const artworkEl = renderBasquiatArtwork(artwork);
     basquiatArtworksSection.append(artworkEl);
+}
+
+const meshellAlbumsSection = document.getElementById('meshell-section');
+
+for (let album of meshellAlbums) {
+    const albumEl = renderMeshellAlbum(album);
+    meshellAlbumsSection.append(albumEl);
 }
