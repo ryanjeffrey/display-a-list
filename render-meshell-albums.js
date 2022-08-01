@@ -9,7 +9,7 @@ export function renderMeshellAlbum(album) {
     photoEl.src = album.photo;
     titleEl.textContent = album.title;
     yearEl.textContent = `Released in: ${album.year}`;
-    songListTitleEl.textContent = 'Track Listing:';
+    songListTitleEl.textContent = 'Track List:';
 
     for (let song of album.songs) {
         const songEl = document.createElement('li');
