@@ -76,6 +76,10 @@ p {
     border: 0.5px grey solid;
 }
 
+#basquiat-section {
+    margin-top: 40px;
+}
+
 h3 {
     grid-column: 2;
 }
